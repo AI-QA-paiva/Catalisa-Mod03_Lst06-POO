@@ -5,16 +5,29 @@ public class Quadrado extends FiguraGeometrica{
 
     double calculoAreaQ;
 
-    public Quadrado(double informaLado, double calculoAreaQ) {
+    public Quadrado(double informaLado) {
         this.informaLado = informaLado;
-        this.calculoAreaQ = calculoAreaQ;
+
     }
 
     @Override
     public void calculoArea() {
-        double areaQuadrado = this.get+ (this.getSalario() * 0.05);
-        setSalario(salarioCord);
-
+        calculoAreaQ = informaLado * informaLado;
 
     }
+
+    public double getValorCalculado() {
+        return calculoAreaQ;
+    }
+
+
+    public double getInformaLado() {
+        return informaLado;
+    }
+
+    public void setInformaLado(double informaLado) {
+        this.informaLado = informaLado;
+    }
+
+
 }
