@@ -2,9 +2,9 @@ package lista06B.exer01;
 
 public class Retangulo extends FiguraGeometrica{
 
-    double ladoA, ladoB;
+    private double ladoA, ladoB;
 
-    double calculoAreaR;
+    private double calculoAreaR;
 
     public Retangulo(double ladoA, double ladoB) {
         this.ladoA = ladoA;

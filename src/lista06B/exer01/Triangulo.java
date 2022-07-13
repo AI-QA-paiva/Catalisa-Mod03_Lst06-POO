@@ -2,9 +2,9 @@ package lista06B.exer01;
 
 public class Triangulo extends FiguraGeometrica{
 
-double base, altura;
+private double base, altura;
 
-double calculoAreaT;
+private double calculoAreaT;
 
     public Triangulo(double base, double altura) {
         this.base = base;

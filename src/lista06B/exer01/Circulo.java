@@ -2,9 +2,9 @@ package lista06B.exer01;
 
 public class Circulo extends FiguraGeometrica{
 
-    double raio;
+    private double raio;
 
-    double calculoAreaC;
+    private double calculoAreaC;
 
     public Circulo(double raio) {
         this.raio = raio;

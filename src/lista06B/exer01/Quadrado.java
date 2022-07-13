@@ -1,9 +1,9 @@
 package lista06B.exer01;
 
 public class Quadrado extends FiguraGeometrica{
-    double informaLado;
+    private double informaLado;
 
-    double calculoAreaQ;
+    private double calculoAreaQ;
 
     public Quadrado(double informaLado) {
         this.informaLado = informaLado;
